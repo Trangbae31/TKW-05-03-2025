@@ -1,0 +1,65 @@
+/* Khung chứa toàn bộ nội dung */
+.container {
+    width: 50%; /* Điều chỉnh chiều rộng theo mong muốn */
+    max-width: 600px;
+    margin: 30px auto; /* Căn giữa */
+    padding: 10px;
+    border: 2px solid black; /* Viền đen */
+    background: white; /* Nền trắng để không bị ảnh hưởng */
+    position: relative;
+    box-sizing: border-box;
+}
+
+/* Phần tiêu đề chứa ảnh nền */
+.header {
+    width: 100%;
+    height: 150px; /* Độ cao cố định */
+    background: url('https://i.pinimg.com/736x/a9/0b/eb/a90beb9a3dd24c737ca9c609fcdb337d.jpg') no-repeat center top;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* Căn giữa nội dung theo chiều dọc */
+    position: relative;
+    border-bottom: none; /* Loại bỏ viền đen dưới ảnh */
+}
+
+/* Dòng chữ "CSS" */
+.header h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    color: red;
+    font-weight: bold;
+}
+/* Phần khoảng trống chứa dòng chữ xanh lá */
+.space {
+    height: 40px; /* Điều chỉnh khoảng cách rộng rãi */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Dòng chữ "www.w3school.com" */
+.website-link {
+    position: absolute;
+    right: 10px; /* Sát mép phải */
+    top: 26%; /* Điều chỉnh lên xuống để đúng giữa khoảng trống */
+    transform: translateY(-50%); /* Căn giữa theo chiều dọc */
+    font-style: italic;
+    color: green;
+    font-size: 17.5px; /* Điều chỉnh nếu cần */
+    text-decoration: none
+}
+
+/* Khung nội dung màu cam */
+.content {
+    background: #E67E22;
+    color: white;
+    padding: 20px;
+    text-align: justify;
+    margin-top: 5px; /* Tạo khoảng cách giữa nội dung và chữ xanh lá */
+}
+

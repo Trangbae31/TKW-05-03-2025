@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.container {
+    width: 600px;
+    border: 1px solid black;
+    padding: 15px;
+    margin: auto;
+}
+
+.title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: red;
+}
+
+.link {
+    text-align: right;
+    font-style: italic;
+}
+
+.link a {
+    color: green;
+    text-decoration: none;
+}
+
+.link a:hover {
+    text-decoration: underline;
+}
+
+.content {
+    text-align: justify;
+    font-size: 16px;
+    line-height: 1.5;
+}

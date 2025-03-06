@@ -1,0 +1,15 @@
+.h1{
+    color:#690B22;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+  }
+  #p1{
+    color:#E07A5F;
+    text-align: center;
+  }
+  #p2{
+    color:#FFB4A2;
+    text-align: center;
+  }
+  body{font-family: "American Typewriter", Courier, monospace;}

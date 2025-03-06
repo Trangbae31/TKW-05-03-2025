@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #fff;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.title {
+    font-size: 28px;
+    font-family: 'Georgia', 'Times New Roman', serif;
+    color: #37AFE1;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px rgba(6, 29, 67, 0.3); /* Thêm bóng cho tiêu đề */
+}
+
+.subtitle {
+    font-size: 12px;
+    color: #7BD3EA;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.intro {
+    font-size: 16px;
+    font-weight: bold;
+}
+/* Màu xanh cho từ "briard" */
+.highlight {
+    color: #7BD3EA;
+}
+
+
+.section-title {
+    font-size: 20px;
+    font-family: 'Times New Roman', 'Georgia',  serif;
+    color: #7BD3EA;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.description {
+    font-size: 14px;
+    text-align: justify;
+}
+
+.author {
+    font-style: italic;
+    text-align: right;
+    color: #666;
+    font-size: 12px;
+    margin-top: 10px;
+}
